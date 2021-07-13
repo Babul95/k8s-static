@@ -15,6 +15,7 @@ spec:
     spec:
       containers:
       - name: static
-        image: 060920346106.dkr.ecr.us-east-2.amazonaws.com/k8s-static:1
+        image: 097295950030.dkr.ecr.us-east-2.amazonaws.com/babul:1
+
         ports:
         - containerPort: 80

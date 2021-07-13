@@ -7,7 +7,7 @@ metadata:
    kubernetes.io/ingress.class: nginx
 spec:
  rules:
- - host: dev-static.premdesigns.in
+ - host: jenkins-alb-316429061.us-east-2.elb.amazonaws.com
    http:
      paths:
      - path:
